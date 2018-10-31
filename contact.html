@@ -2,7 +2,7 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <title>Stéphane Genini - Contact</title>
+        <title>Stéphane Genini - About</title>
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
@@ -10,60 +10,61 @@
 
     <body>
         <header>
-            <h1 class="logo"><a href="index.html">Stéphane Genini</a></h1>
-            <nav class="nav primary-nav">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <section class="top-bar">
+                <h1><a href="index.html">Stéphane Genini</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
         </header>
 
-        <section id="contact">
-            <h2 class="heading">Contact</h2>
-            <hr>
-            <div class="forms">
-                <form>
-                    <label>
-                        Name
-                        <input type="text" name="name" placeholder="John Smith" required>
-                    </label>
-                    <label>
-                        Email
-                        <input type="email" name="email" placeholder="example@gmail.com" required>
-                    </label>
-                    <label>
-                        Message
-                        <textarea name="message"></textarea>
-                    </label>
-                    <input class="btn" type="submit" name="submit" value="submit">
-                </form>
-            </div>
-            <div class="connect">
-                <h4>Connect with Me</h4>
+        <section>
+            <section id="contact">
+                <h2>Contact</h2>
                 <hr>
-                <div class="icon" id="github">
-                    <h3>github</h3>
+                <div class="forms">
+                    <form>
+                        <label>
+                            Name <br>
+                            <input type="text" name="name" placeholder="John Smith" required>
+                        </label>
+                        <label>
+                            Email <br>
+                            <input type="email" name="email" placeholder="example@gmail.com" required>
+                        </label>
+                        <label>
+                            Message <br>
+                            <textarea name="message"></textarea>
+                        </label>
+                        <input class="btn" type="submit" name="submit" value="submit">
+                    </form>
                 </div>
-                <div class="icon" id="linkedin">
-                    <h3>linkedin</h3>
+            </section>
+            <section id="connect">
+                <div>
+                    <h4>Connect with Me</h4>
+                    <hr>
+                    <a href="https://github.com/sgenini" target="_blank">
+                        <div class="icon" id="github">
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/stephane-genini/" target="_blank">
+                        <div class="icon" id="linkedin">
+                        </div>
+                    </a>
+                    <a href="https://stackoverflow.com/users/10515511/stephane-genini" target="_blank">
+                        <div class="icon" id="stackoverflow">
+                        </div>
+                    </a>
                 </div>
-                <div class="icon" id="stackoverflow">
-                    <h3>stackoverflow</h3>
-                </div>
-            </div>
+            </section>
         </section>
-        
-        <footer class="primary-footer container group">
+        <footer>
             <small>&copy; Stéphane Genini</small>
-            <nav class="nav">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
         </footer>
     </body>
 </html>
