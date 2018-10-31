@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+
+body {
+    font: 300 16px/22px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/houndstooth-pattern.png");
+    color: #777777;
+}
+
+header {
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    height: 70px;
+    margin: 0 auto;
+}
+
+section {
+    width: 960px;
+    /* margin: 15px auto; */
+}
+
+h1 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    background: #4aaaa5;
+    padding: 0 auto;
+    vertical-align: middle;
+    float: left;
+    text-align: center;
+    height: 70px;
+    color: #fff;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+.nav li:last-child {
+    margin-right:0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #777;
+}
